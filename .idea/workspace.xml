@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Add slf4j dependency injection">
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Using Java's HttpClient for call API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666364501944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Using Java's HttpClient for call API">
+      <created>1666524140916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666524140916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +129,8 @@
     <MESSAGE value="Setup Project" />
     <MESSAGE value="Setup Project:configuration courseRetriever class" />
     <MESSAGE value="Add slf4j dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add slf4j dependency injection" />
+    <MESSAGE value="Using Java's HttpClient for call API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Java's HttpClient for call API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

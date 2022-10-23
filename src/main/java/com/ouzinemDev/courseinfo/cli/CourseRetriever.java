@@ -1,8 +1,11 @@
 package com.ouzinemDev.courseinfo.cli;
 
 import com.ouzinemDev.courseinfo.cli.service.CourseRetrievalService;
+import com.ouzinemDev.courseinfo.cli.service.PluralsightCourse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 public class CourseRetriever {
     private static final Logger LOG =
@@ -25,7 +28,7 @@ public class CourseRetriever {
         LOG.info("Retrieving course for author '{}'", authorId);
         CourseRetrievalService courseRetrievalService = new CourseRetrievalService();
 
-        String coursesToStore = courseRetrievalService.getCoursesFor(authorId);
+        List<PluralsightCourse> coursesToStore = courseRetrievalService.getCoursesFor(authorId);
         LOG.info("Retrieved the following courses {}", coursesToStore);
     }
 
