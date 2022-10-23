@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Setup Project:configuration courseRetriever class">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Add slf4j dependency injection">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,22 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ouzinemDev.courseinfo.cli.service" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="com.ouzinemDev.courseinfo.cli.CourseRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.CourseRetriever" />
       <module name="course-info" />
-      <option name="PROGRAM_PARAMETERS" value="ouzinem" />
+      <option name="PROGRAM_PARAMETERS" value="sander-mak" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ouzinemDev.courseinfo.cli.*" />
@@ -65,7 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.ouzinemDev.courseinfo.cli.CourseRetriever" />
+        <item itemvalue="Application.CourseRetriever" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666359928071</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add slf4j dependency injection">
+      <created>1666364501944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666364501944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Project" />
     <MESSAGE value="Setup Project:configuration courseRetriever class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Project:configuration courseRetriever class" />
+    <MESSAGE value="Add slf4j dependency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slf4j dependency injection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
