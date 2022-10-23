@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Using Java's HttpClient for call API">
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Create record Pluralsight Course">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" afterDir="false" />
     </list>
