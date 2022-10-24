@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="Create record Pluralsight Course">
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="using jackson to binding json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/CourseRetrievalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     <configuration name="CourseRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.CourseRetriever" />
       <module name="course-info" />
-      <option name="PROGRAM_PARAMETERS" value="sander-mak" />
+      <option name="PROGRAM_PARAMETERS" value="kevin-dockx" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ouzinemDev.courseinfo.cli.*" />
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666524140916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="using jackson to binding json">
+      <created>1666544678951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666544678951</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +136,8 @@
     <MESSAGE value="Setup Project:configuration courseRetriever class" />
     <MESSAGE value="Add slf4j dependency injection" />
     <MESSAGE value="Using Java's HttpClient for call API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Java's HttpClient for call API" />
+    <MESSAGE value="using jackson to binding json" />
+    <option name="LAST_COMMIT_MESSAGE" value="using jackson to binding json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
