@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="filtering course retired">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourse.java" afterDir="false" />
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="create unit testing for duration">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666605712224</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create unit testing for duration">
+      <created>1666606753837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666606753837</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +216,8 @@
     <MESSAGE value="Using Java's HttpClient for call API" />
     <MESSAGE value="using jackson to binding json" />
     <MESSAGE value="filtering course retired" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtering course retired" />
+    <MESSAGE value="create unit testing for duration" />
+    <option name="LAST_COMMIT_MESSAGE" value="create unit testing for duration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
