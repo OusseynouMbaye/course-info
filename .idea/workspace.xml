@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="using jackson to binding json">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/CourseRetriever.java" afterDir="false" />
+    <list default="true" id="6eecf413-d63e-48b4-8fcb-e71f5d318c41" name="Changes" comment="filtering course retired">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouzinemDev/courseinfo/cli/service/PluralsightCourse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
       <list>
         <option value="Class" />
         <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,14 +46,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ouzinemDev.courseinfo.cli.service" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ouzinemDev.courseinfo.cli.service" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PluralsightCourseTest">
     <configuration name="CourseRetriever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.CourseRetriever" />
       <module name="course-info" />
@@ -67,8 +76,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PluralsightCourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouzinemDev.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouzinemDev.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.service.PluralsightCourseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PluralsightCourseTest.durationInMinutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouzinemDev.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouzinemDev.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.service.PluralsightCourseTest" />
+      <option name="METHOD_NAME" value="durationInMinutes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PluralsightCourseTest.durationInMinutesOverHour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouzinemDev.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouzinemDev.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ouzinemDev.courseinfo.cli.service.PluralsightCourseTest" />
+      <option name="METHOD_NAME" value="durationInMinutesOverHour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseRetriever" />
+      <item itemvalue="JUnit.PluralsightCourseTest.durationInMinutes" />
+      <item itemvalue="JUnit.PluralsightCourseTest" />
+      <item itemvalue="JUnit.PluralsightCourseTest.durationInMinutesOverHour" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PluralsightCourseTest" />
+        <item itemvalue="JUnit.PluralsightCourseTest.durationInMinutesOverHour" />
+        <item itemvalue="JUnit.PluralsightCourseTest.durationInMinutes" />
         <item itemvalue="Application.CourseRetriever" />
       </list>
     </recent_temporary>
@@ -117,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666544678951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="filtering course retired">
+      <created>1666605712224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666605712224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +209,8 @@
     <MESSAGE value="Add slf4j dependency injection" />
     <MESSAGE value="Using Java's HttpClient for call API" />
     <MESSAGE value="using jackson to binding json" />
-    <option name="LAST_COMMIT_MESSAGE" value="using jackson to binding json" />
+    <MESSAGE value="filtering course retired" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtering course retired" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
