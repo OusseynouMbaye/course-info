@@ -15,6 +15,7 @@ public class CourseRetriever {
 
     public static void main(String[] args) {
         LOG.info("CourseRetriever started");
+
         if (args.length == 0) {
             LOG.warn("Please provide an author name as first argument");
             return;
@@ -34,7 +35,7 @@ public class CourseRetriever {
                 .stream()
                 .filter(not(PluralsightCourse::isRetired))   //(course ->!course.isRetired())
                 .toList();
-        LOG.info("Retrieved the following {} courses {}", coursesToStore.size(),coursesToStore);
+        LOG.info("Retrieved the following {} courses {}", coursesToStore.size(), coursesToStore);
     }
 
     public static void out(Object o) {
